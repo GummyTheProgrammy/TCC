@@ -1,0 +1,13 @@
+Planta -> coleta moedas de etapa qu8ando clicado
+	etapa {0,1,2,3,4}
+	tempo para terminar = 48 horas inicialmente
+	pace = 1 segundo
+
+Regador -> subtrai meia hora do tempo para terminar da Planta, o tempo não pode ficar negativo, se passar de 0 reseta.
+Quando usado, é bloqueado e só pode ser usado novamente no dia seguinte.
+Log: você já regou ela hoje!
+
+Pá -> só pode ser usada quando tem lixo
+Log: você já limpou todo o lixo!
+
+Lixo -> sugestão: limpar o lixo da moedas. Um Lixo aparece de 5 em 5 horas.

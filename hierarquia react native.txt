@@ -1,0 +1,13 @@
+ImageBackground
+	ScrollView
+		Modal
+			TouchableOpacity
+				onPress
+				Image
+				Text
+		StatusBar
+		View
+			View
+				Text
+			TouchableOpacity
+				Image
